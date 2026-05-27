@@ -2,6 +2,8 @@ provider "aws" {
   region = "us-east-2"
 }
 
+
+ # This is a comment and will trigger tests
 resource "aws_s3_bucket" "s3_bucket" {
   bucket = var.bucket_name
 }
